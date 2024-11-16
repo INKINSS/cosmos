@@ -1,0 +1,9 @@
+---
+import Logo from "../common/Logo.astro";
+import Menu from "../menu/Menu";
+---
+
+<header class="flex justify-between items-center py-4">
+  <Logo />
+  <Menu client:visible />
+</header>

@@ -1,16 +1,17 @@
 ---
-import Layout from '../layouts/Layout.astro';---
+import Layout from "../layouts/Layout.astro";
+import "../styles/globals.css";
+import Header from "../components/header/Header.astro";
+---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		este es el main
-	</main>
+  <Header />
 </Layout>
 
 <style is:global>
-	* {
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-	}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 </style>
