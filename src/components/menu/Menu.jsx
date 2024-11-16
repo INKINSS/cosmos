@@ -20,7 +20,7 @@ const Menu = () => {
       />
 
       <ul
-        className={`absolute top-16 right-10 flex flex-col sm:flex-row sm:space-x-6 transform duration-150 sm:translate-x-0 sm:top-7 ${
+        className={`absolute bg-white w-[10rem] sm:shadow-none sm:w-auto ssm:top-16 sm:top-[1.1rem] right-10 flex flex-col sm:flex-row sm:space-x-2 lg:space-x-5 transform duration-150 sm:translate-x-0 ${
           menuIsOpen ? "translate-x-0" : "translate-x-[200%]"
         }`}
       >
