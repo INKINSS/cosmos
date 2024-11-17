@@ -10,7 +10,7 @@ const Menu = () => {
   };
 
   return (
-    <nav className="right-10 top-16">
+    <nav className="right-10 top-16 overflow-hidden">
       <IoIosArrowBack
         size={"1.6rem"}
         onClick={handleMenu}
