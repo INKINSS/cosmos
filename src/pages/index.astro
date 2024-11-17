@@ -2,12 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import "../styles/globals.css";
 import Header from "../components/header/Header.astro";
-import BannerPrincipal from "@/components/BannerPrincipal.astro";
+import BannerPrincipal from "@/components/banners/BannerPrincipal.astro";
+import MultiPlatform from "@/components/sections/MultiPlatform.astro";
 ---
 
 <Layout title="Welcome to Astro.">
   <Header />
   <BannerPrincipal />
+  <MultiPlatform />
 </Layout>
 
 <style is:global>
