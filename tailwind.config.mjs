@@ -9,6 +9,7 @@ export default {
     			customGray: 'rgb(138, 138, 138)',
 				customGrayLight: 'rgb(70, 70, 70)',
 				hoverGreen: 'rgb(34,168,56)',
+				customGreenDark: 'rgb(24, 84, 37)',
     		},
     		borderRadius: {
     			lg: 'var(--radius)',
