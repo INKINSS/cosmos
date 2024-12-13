@@ -5,12 +5,14 @@ import Header from "../components/header/Header.astro";
 import BannerPrincipal from "@/components/banners/BannerPrincipal.astro";
 import MultiPlatform from "@/components/sections/MultiPlatform.astro";
 import Statistics from "@/components/statistics/Statistics.astro";
+import Eyelashes from "@/components/sections/Eyelashes";
 ---
 
 <Layout title="Welcome to Astro.">
   <Header />
   <BannerPrincipal />
   <MultiPlatform />
+  <Eyelashes client:visible />
   <Statistics />
 </Layout>
 
