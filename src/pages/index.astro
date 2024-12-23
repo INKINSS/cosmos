@@ -6,6 +6,7 @@ import BannerPrincipal from "@/components/banners/BannerPrincipal.astro";
 import MultiPlatform from "@/components/sections/MultiPlatform.astro";
 import Statistics from "@/components/statistics/Statistics.astro";
 import Eyelashes from "@/components/sections/Eyelashes";
+import Footer from "@/components/footer/Footer";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -14,6 +15,7 @@ import Eyelashes from "@/components/sections/Eyelashes";
   <MultiPlatform />
   <Statistics />
   <Eyelashes client:visible />
+  <Footer />
 </Layout>
 
 <style is:global>
@@ -21,5 +23,8 @@ import Eyelashes from "@/components/sections/Eyelashes";
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+  body {
+    overflow-x: hidden;
   }
 </style>
