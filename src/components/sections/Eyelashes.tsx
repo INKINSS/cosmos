@@ -6,7 +6,9 @@ import { Light } from "../SectionQualities/Light";
 
 const Eyelashes = () => {
   return (
-    <Tabs className="mt-10 ssm:w-full md:w-[75%] mx-auto" defaultValue="compatible">
+    <>
+    <h2 className="text-center text-[2.2rem] text-customGrayLight font-semibold">¿Qué caracteriza a <span className="text-customGreen"> cosmos?</span></h2>
+    <Tabs className="mt-6 ssm:w-full md:w-[75%] mx-auto" defaultValue="compatible">
       <TabsList className="w-full flex bg-white" defaultValue="compatible">
         <TabsTrigger className="flex-1 data-[state=active]:shadow-none py-4 px-2 bg-customGreen text-white md:text-[1.7rem]" value="compatible">compatible</TabsTrigger>
         <TabsTrigger className="flex-1 data-[state=active]:shadow-none py-4 px-2 bg-customGreen text-white md:text-[1.7rem]" value="eficiente">eficiente</TabsTrigger>
@@ -18,6 +20,7 @@ const Eyelashes = () => {
       <TabsContent className="flex items-center justify-center w-full h-[20rem] data-[state=inactive]:hidden" value="seguro"><Secure /></TabsContent>
       <TabsContent className="flex flex-col justify-center items-center w-full h-[20rem] data-[state=inactive]:hidden" value="ligero"><Light /></TabsContent>
     </Tabs>
+    </>
   );
 };
 
