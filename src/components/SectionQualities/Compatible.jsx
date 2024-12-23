@@ -1,19 +1,20 @@
-import React from "react";
+import { FaCircleInfo } from "react-icons/fa6";
+
 import { OptionCompatible } from "../common/OptionCompatible";
 
 export const Compatible = () => {
   return (
     <section className="leading-9 flex flex-col items-center">
-      <h2 className="font-semibold text-[2rem] text-customGrayLight">
-        lleva cosmos
+      <h2 className="text-[1.7rem] font-semibold text-customGrayLight leading-8 text-center">
+        lleva cosmos<span className="text-customGreen"> a todos lados</span>
       </h2>
-      <span className="text-customGreen text-[2.3rem] font-bold">
-        a todo lado
-      </span>
       <OptionCompatible />
-      <span className="text-customGrayLight mt-5">
-        compatible con todos los dispositivos
-      </span>
+      <div className="flex flex-row items-center mt-5 gap-2">
+        <FaCircleInfo color="rgb(38,133,59)" />
+        <span className="inline-block text-customGrayLight text-[1.3rem]">
+          compatible con todos los dispositivos
+        </span>
+      </div>
     </section>
   );
 };

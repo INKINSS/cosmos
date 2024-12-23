@@ -27,8 +27,8 @@ export const OptionCompatible = () => {
   return (
     <div className="flex gap-4 mt-3">
         { OptionsCompatible.map((item) => (
-            <div key={item.title} className='group flex border ssm:w-[4.3rem] sm:w-[6rem] sm:h-[5rem] sm:text-[1.3rem] md:w-[8rem] md:h-[9rem] ssm:pt-[.8rem] ssm:px-[1rem] rounded-[10%] border-customGray flex-col items-center hover:bg-customGreen transform duration-200 hover:border-customGreen hover:text-white group'>
-                <figure className="md:text-[5rem] text-customGrayLight hover:text-white group-hover:text-white">
+            <div key={item.title} className='group flex border ssm:w-[4.3rem] sm:w-[6rem] sm:h-[5rem] sm:text-[1.3rem] md:w-[8rem] md:h-[7rem] ssm:pt-[.8rem] ssm:px-[1rem] rounded-[10%] border-customGray flex-col items-center hover:bg-customGreen transform duration-200 hover:border-customGreen hover:text-white group'>
+                <figure className="md:text-[3rem] text-customGrayLight hover:text-white group-hover:text-white">
                     {item.icon}
                 </figure>
                 <span className=' inline-block text-customGrayLight group-hover:text-white'>{item.title}</span>
